@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Hello New Tab Extension",
+    "description": "A Hello New Tab that greets user whenever open a new tab",
+    "version": "1.0",
+
+    "chrome_url_overrides" : {
+        "newtab": "index.html"
+      },
+
+      "icons":{
+               "128": "images/icon128.png",
+               "48": "images/icon48.png",
+               "16": "images/icon16.png"
+      },
+      "permissions": [ "tabs", "webNavigation", "webRequest", "<all_urls>", "https://*/*" ],
+      
+      "browser_action":{
+        "default_icon": "images/icon16.png"
+      }
+     
+
+    
+      
+   
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>Hello New Tab</title>
+        
+        <script src="jquery/jquery-3.3.1.min.js"></script>
+        <script src="dist/js/content.js"></script>
+     
+        <link rel="stylesheet" href="dist/styles/style.css">
+    </head>
+
+    <body>
+       
+
+        <main>
+            
+            <!-- preloader  -->
+            <div class="preloader"></div>
+
+            
+             <!-- main section of the page -->
+            <section class="welcome loaded">
+ 
+                <!-- top portion of page -->
+                <div class="bar bar-top">
+
+                    <div class="links"><a title="Chrome Tab" href="http://google.com">Chrome Tab</a>
+                          <a class="chrome" title="View Apps" href="chrome://apps">Apps</a>
+                          <a class="links" title="View Webstore" href="https://chrome.google.com/webstore/category/extensions">Chrome Store</a></div>
+                    
+                    </div>
+
+                    <span class="menu"><span class="menu-bar"></span></span>
+
+                </div>
+
+
+                <!-- middle portion of page -->
+                <div class="bar bar-middle">
+
+                    <h1>Good
+                        <span id="t-o-d" class="time-of-day"></span>
+                        <span class="greeting hidden"></span></h1>
+
+                </div>  
+
+                <!-- bottom portion of page --> 
+                <div class="bar bar-bottom">
+                    <div class="time">
+                        <p><span id="clock"></span><span class="tiny"></span></p>
+                        
+                        <p class="tiny location"></p>
+                    </div>
+                    
+                </div>
+            
+
+              <!-- settings of the page -->
+              <div class="settings-panel">
+                      <div class="bar bar-top">
+                         <p class="title">Display Settings</p>
+                            <a class="menu" href="close" title="Close settings">
+                        
+                           </a>
+                      </div>
+                   
+                      <div class="options-section">
+                          <div class="option-input">
+                              <p>Name:</p>
+                              
+                              <input type="text" data-toggle="greeting" placeholder="Enter your name">
+                           </div>
+                          
+                          <div class="option-input">
+                              <p>Location:</p>
+                              
+                              <input type="text" data-toggle="location" placeholder="Enter your location">
+                          </div>
+                          
+                      </div>
+                  
+              </div>
+
+            </section>
+            
+        </main>
+    
+    </body>
+
+
+</html>
